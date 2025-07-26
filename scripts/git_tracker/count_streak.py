@@ -39,18 +39,17 @@ def save_log(dates):
     with open(LOG_FILE, "w") as f:
         json.dump(sorted(dates), f, indent = 2)
 
-def update_log(today_str, commit_dates):
+def update_log(commit_dates):
     log = load_log()
-    if today_str in commit_dates:
-        log.add(today_str)
-        save_log(list(log))
+    log.update(commit_dates)
+    save_log(list(log))
 
 if __name__ == "__main__":
     commit_dates = get_commit_dates()
-    today_str = datetime.today().strftime("%Y-%m-%d")
-    update_log(today_str, commit_dates)
+    update_log(commit_dates)
     log = load_log()
-    print(f"Your current commit streak is: {count_streak(log)} day(s)")
+    sorted_log = sorted(log, reverse=True)
+    print(f"Your current commit streak is: {count_streak(sorted_log)} day(s)")
 
 
     
