@@ -2,16 +2,20 @@
 Problem: Add two numbers (LeetCode #0002)
 Link: https://leetcode.com/problems/add-two-numbers/
 
-[Write a brief description or paste the original prompt here.]
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 Approach:
-- [Explain your approach here]
+- Need to iterate over each node in the linked list. A for loop won't do so use a while loop. Add the value of each node and store the carry 
+for the next nodes.  
 
 Time complexity: O(n)
 Space complexity: O(?)
 """
 
 from typing import List
+
 
 #Definition for singly-linked list.
 class ListNode:
