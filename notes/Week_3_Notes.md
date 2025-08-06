@@ -12,3 +12,6 @@
 # Python
 - print vs return vs yield
 - enumerate recap(again)
+- ord and how it works
+- defaultdict from collections
+- zip and count
