@@ -1,4 +1,5 @@
 # Notes
+- Focusing on leetcode and DSA for projects and scripts moving forwards
 
 # leetcode
 - Learned difference between sets and lists in usage
