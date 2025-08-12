@@ -3,6 +3,7 @@
 
 # Leetcode
 - Median of two sorted arrays. Touched on binary search and partitioning for time efficient soln. 
+- 3 array problems. ##Come edit this when not fried
 
 
 # DSA
