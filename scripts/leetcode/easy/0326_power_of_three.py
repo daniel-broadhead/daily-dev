@@ -16,8 +16,12 @@ Space complexity: O(1)
 from typing import List
 
 class Solution:
-    def power_of_three(self, ...):  # Update params
-        pass
+    def isPowerOfThree(self, n: int) -> bool:
+        if n <= 0:
+            return False
+        while n % 3 == 0:
+            n //= 3
+        return n == 1
 
 # Example test
 if __name__ == "__main__":
