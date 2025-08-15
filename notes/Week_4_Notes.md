@@ -3,8 +3,9 @@
 
 # Leetcode
 - Median of two sorted arrays. Touched on binary search and partitioning for time efficient soln. 
-- 3 array problems. ##Come edit this when not fried
-- learned some about the 3 power problem. ##REVIEW THIS AGAIN
+- Array practice including pascal's triangle and Kadane's algorithm
+- learned some about the 3 power problem. 
 - practice with re package. practice with indices and data types
+- 2 pointer problem with moving zeroes, tricky soln for my brain
 
 # DSA
