@@ -7,5 +7,6 @@
 - learned some about the 3 power problem. 
 - practice with re package. practice with indices and data types
 - 2 pointer problem with moving zeroes, tricky soln for my brain
+- strings are immutable. learned more string methods
 
 # DSA
