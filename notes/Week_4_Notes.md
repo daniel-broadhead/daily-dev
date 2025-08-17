@@ -10,3 +10,5 @@
 - strings are immutable. learned more string methods
 
 # DSA
+- No created structures this week. Perhaps next
+
