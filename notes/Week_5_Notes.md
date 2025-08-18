@@ -8,4 +8,7 @@
 # Project
 - I imagine using my hashmap structure created in repo to store a dict of games and categories/requirements, perhaps as a json file.
 - I then use a random package, after learning about it, to decide what game to play, dependent on what i have the capacity for
-- Future func can include productive vs leisure, and other similar ideas.  
+- Future func can include productive vs leisure, and other similar ideas.  Perhaps even play with my own prng. 
+
+# To-Do
+- Get update_library working, it can't find the data_structures module. 
