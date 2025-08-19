@@ -3,6 +3,7 @@
 
 # Leetcode
 - Reinforcing differences between hashmap windows and two pointer windows.
+- Better logic for counting zeroes in a subarray.
 
 
 # Project
@@ -11,4 +12,5 @@
 - Future func can include productive vs leisure, and other similar ideas.  Perhaps even play with my own prng. 
 
 # To-Do
-- Get update_library working, it can't find the data_structures module. 
+- Get update_library working, it can't find the data_structures module. - Check
+- Create game_select script for actually taking the attr and selecting a game

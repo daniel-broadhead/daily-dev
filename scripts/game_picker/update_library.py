@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from data_structures import HashMap
+from ..data_structures import HashMap
 
 LIB_PATH = Path(__file__).parent / "library.json" #conveniently pulls path to current file for adding new json file to folder
 
@@ -26,8 +26,7 @@ def add_game():
             attention = int(input("What level of attention does this take? " \
             "1(Turn based/can pause), " \
             "2(Not devastating to walk away), " \
-            "3(Full attention reqd: ")) \
-            .strip()
+            "3(Full attention reqd): "))            
             if attention in [1, 2, 3]:
                 break
             else:
@@ -41,4 +40,4 @@ def add_game():
     print(f"Game '{name}' added/updated!")
 
 if __name__ == "__main__":
-    add_game
+    add_game()

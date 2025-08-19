@@ -102,27 +102,27 @@ class HashMap:
         
             
 
-hm = HashMap()
+    # hm = HashMap()
 
-# __setitem__ → allows bracket assignment
-hm["name"] = "Alice"
-hm["age"] = 30
+    # # __setitem__ → allows bracket assignment
+    # hm["name"] = "Alice"
+    # hm["age"] = 30
 
-# __getitem__ → allows bracket access
-print(hm["name"])  # Alice
-print(hm["age"])   # 30
+    # # __getitem__ → allows bracket access
+    # print(hm["name"])  # Alice
+    # print(hm["age"])   # 30
 
-# __delitem__ → allows deletion with del
-del hm["age"]
+    # # __delitem__ → allows deletion with del
+    # del hm["age"]
 
-# Confirm deletion
-print("age" in list(hm.keys()))  # False
+    # # Confirm deletion
+    # print("age" in list(hm.keys()))  # False
 
-# Try accessing a deleted or missing key
-try:
-    print(hm["age"])  # should raise KeyError
-except KeyError as e:
-    print("Caught:", e)
+    # # Try accessing a deleted or missing key
+    # try:
+    #     print(hm["age"])  # should raise KeyError
+    # except KeyError as e:
+    #     print("Caught:", e)
 
 
             
