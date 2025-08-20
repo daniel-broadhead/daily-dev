@@ -13,4 +13,5 @@
 
 # To-Do
 - Get update_library working, it can't find the data_structures module. - Check
-- Create game_select script for actually taking the attr and selecting a game
+- Create game_select script for actually taking the attr and selecting a game - Check
+- 
