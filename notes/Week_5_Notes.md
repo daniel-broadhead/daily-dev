@@ -4,6 +4,7 @@
 # Leetcode
 - Reinforcing differences between hashmap windows and two pointer windows.
 - Better logic for counting zeroes in a subarray.
+- BS practice
 
 
 # Project
