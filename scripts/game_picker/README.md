@@ -6,3 +6,9 @@
 
 # Future Func
 - Perhaps something to actually run the program from CMD after the game is chosen
+- Function to remove something(since i added same game under slightly different names)
+
+# Notes
+- Because this calls the hashmap function from data_structures, it requires running the script as -m to navigate to the correct folder
+with correct permissions. 
+- python -m scripts.game_picker.update_library

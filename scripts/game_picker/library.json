@@ -1,20 +1,32 @@
 {
-    "Helldivers 2": {
-        "attention level": 3
+    "Dwarf Fortress": {
+        "attention level": 1
     },
     "Pokemon Unite": {
         "attention level": 2
     },
+    "Stellaris": {
+        "attention level": 1
+    },
     "Heroes of the Storm": {
         "attention level": 3
-    },
-    "Dwarf Fortress": {
-        "attention level": 1
     },
     "Half Sword": {
         "attention level": 2
     },
+    "Helldivers 2": {
+        "attention level": 3
+    },
+    "Elden Ring": {
+        "attention level": 3
+    },
+    "RimWorld": {
+        "attention level": 1
+    },
     "Age of Wonders": {
+        "attention level": 1
+    },
+    "Age of Wonders 4": {
         "attention level": 1
     }
 }
