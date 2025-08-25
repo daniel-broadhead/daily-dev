@@ -39,5 +39,13 @@ def add_game():
     save_library(hm)
     print(f"Game '{name}' added/updated!")
 
+def view_library():
+    #code here
+    pass
+
+def remove_duplicate():
+#code here
+    pass
+
 if __name__ == "__main__":
     add_game()
