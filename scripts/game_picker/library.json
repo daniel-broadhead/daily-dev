@@ -1,32 +1,29 @@
 {
-    "Dwarf Fortress": {
+    "dwarf fortress": {
         "attention level": 1
     },
-    "Pokemon Unite": {
+    "stellaris": {
+        "attention level": 1
+    },
+    "rimworld": {
+        "attention level": 1
+    },
+    "age of wonders 4": {
+        "attention level": 1
+    },
+    "elden ring": {
+        "attention level": 3
+    },
+    "pokemon unite": {
         "attention level": 2
     },
-    "Stellaris": {
-        "attention level": 1
-    },
-    "Heroes of the Storm": {
-        "attention level": 3
-    },
-    "Half Sword": {
+    "half sword": {
         "attention level": 2
     },
-    "Helldivers 2": {
+    "heroes of the storm": {
         "attention level": 3
     },
-    "Elden Ring": {
+    "helldivers 2": {
         "attention level": 3
-    },
-    "RimWorld": {
-        "attention level": 1
-    },
-    "Age of Wonders": {
-        "attention level": 1
-    },
-    "Age of Wonders 4": {
-        "attention level": 1
     }
 }
