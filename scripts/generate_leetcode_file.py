@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 def slugify(title):
     return title.lower().replace(" ", "_").replace("-", "_")
@@ -15,6 +16,7 @@ def generate_leetcode_file(problem_number, title, link, difficulty):
     boilerplate = f'''"""
 Problem: {title} (LeetCode #{problem_number})
 Link: {link}
+Date: {datetime.today().date()}
 
 [Write a brief description or paste the original prompt here.]
 

@@ -11,3 +11,4 @@
 
 # Projects
 - Add deleting functionality to the update_library script. And a func to view the library? - Delete added
+- Update generator file to include date of problem for leetcode problems
