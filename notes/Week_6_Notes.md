@@ -7,6 +7,7 @@
 - 3 sum practice for 2 pointer problems and logic
 - More 2 pointer practice, with permutations
 - Linked lists
+- Sliding window involves moving two pointers 
 
 # Projects
 - Add deleting functionality to the update_library script. And a func to view the library? - Delete added
