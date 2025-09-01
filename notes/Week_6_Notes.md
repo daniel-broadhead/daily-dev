@@ -8,6 +8,7 @@
 - More 2 pointer practice, with permutations
 - Linked lists
 - Sliding window involves moving two pointers 
+- Strenghtened logic and syntax abilities, completed 2 problems without assistance from tools.
 
 # Projects
 - Add deleting functionality to the update_library script. And a func to view the library? - Delete added
