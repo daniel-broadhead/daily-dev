@@ -5,3 +5,4 @@
 # Leetcode
 - Binary search problem(sqrt)
 - Linked list practice(removing duplicates)
+- Merge sort practice
