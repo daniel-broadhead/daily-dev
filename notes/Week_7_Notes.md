@@ -9,4 +9,4 @@
 - Dynamic programming (save edge cases, iterate and save other cases)
 - Sliding window, using 2 loops for 2 cases
 - Stacks and queues practice and work
-- Linked lists and reversing
+- Linked lists and reversing. checking for cycles
