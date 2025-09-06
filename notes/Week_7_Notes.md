@@ -10,3 +10,4 @@
 - Sliding window, using 2 loops for 2 cases
 - Stacks and queues practice and work
 - Linked lists and reversing. checking for cycles
+- Linked lists manipulation, reversing and merging. 
