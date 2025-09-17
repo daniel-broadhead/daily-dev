@@ -1,13 +1,16 @@
 # Focus
+- Survive
 
 # Leetcode
 - Insertion sort on linked lists
 - 2d binary search (74)
+- spiral matrix. interesting logic tester to ask for manipulating the matrix like that. 
+- permutation logic with backtracking, exploring, and recursing to do it again
 
 # To-Do
 - 147 leetcode - done
 - 1935 looks intersting
-- 54 #from practice plan downwards
-- 46
+- 54 - done
+- 46 - done
 - 78
 - 102
