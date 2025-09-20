@@ -8,6 +8,7 @@
 - permutation logic with backtracking, exploring, and recursing to do it again
 - backtrack/dfs logic again. recursion path logic with finishing paths and returning. 
 - binary tree traversals, reviewing inorder traversal
+- postorder and preorder traversal for binary tree
 
 # To-Do
 - 147 leetcode - done
