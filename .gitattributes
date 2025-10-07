@@ -1,0 +1,12 @@
+# ensure shell scripts use LF
+*.sh    text eol=lf
+
+# keep python files normalized to LF too
+*.py    text eol=lf
+
+# ensure Dockerfile and others use LF
+Dockerfile text eol=lf
+
+# keep binary files as binary
+*.png   binary
+*.jpg   binary
