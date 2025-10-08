@@ -1,0 +1,32 @@
+# Vagrantfile - network-ids-vagrant
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+
+  # Router (2 NICs: net10 and net20)
+  config.vm.define "router" do |r|
+    r.vm.hostname = "router"
+    r.vm.network "private_network", ip: "192.168.10.1", auto_config: true  # eth1
+    r.vm.network "private_network", ip: "192.168.20.1", auto_config: true  # eth2
+    r.vm.provision "shell", path: "provision/provision_router.sh"
+  end
+
+  # Attacker (connected to network 192.168.10.0/24)
+  config.vm.define "attacker" do |a|
+    a.vm.hostname = "attacker"
+    a.vm.network "private_network", ip: "192.168.10.10"
+    a.vm.provision "shell", path: "provision/provision_attacker.sh"
+  end
+
+  # Victim (connected to network 192.168.20.0/24)
+  config.vm.define "victim" do |v|
+    v.vm.hostname = "victim"
+    v.vm.network "private_network", ip: "192.168.20.10"
+    v.vm.provision "shell", path: "provision/provision_victim.sh"
+  end
+
+  # Faster boot (optional)
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 1
+  end
+end

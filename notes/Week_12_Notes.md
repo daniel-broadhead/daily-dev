@@ -7,4 +7,9 @@
 -
 
 # To-Do
-- Ask chat about project ideas
+- Vagrant files for project-done
+- Readme for project
+- Scapy and python for project
+- Figure out what is going on with it all lol
+- step 4
+- clear the error for scapy.all
