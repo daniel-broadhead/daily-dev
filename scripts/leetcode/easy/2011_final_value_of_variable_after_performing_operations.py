@@ -22,9 +22,17 @@ Space complexity: O(1)
 from typing import List
 
 class Solution:
-    def final_value_of_variable_after_performing_operations(self, ...):  # Update params
-        pass
-
+    def finalValueAfterOperations(self, operations: List[str]) -> int:
+        var = 0
+        for i in operations:
+            if i == "++X" or i == "X++":
+                var += 1
+            elif i == "--X" or i == "X--":
+                var -= 1
+            else:
+                print(f"That {i} is not recognized.")
+        return var
+        
 # Example test
 if __name__ == "__main__":
     # Add test cases
