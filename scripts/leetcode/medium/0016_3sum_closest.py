@@ -10,7 +10,8 @@ Return the sum of the three integers.
 You may assume that each input would have exactly one solution.
 
 Approach:
-- [Explain your approach here]
+- I'm fantastic at finding brute force solutions, but struggle at thinking in CS logic, for smartness and efficiency. So the idea is to 
+have 2 pointers on the sorted list and check each combination for each item, and find the smallest difference. 
 
 Time complexity: O(?)
 Space complexity: O(?)
