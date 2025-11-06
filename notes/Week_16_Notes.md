@@ -3,4 +3,5 @@
 
 # Learnings
 - My brain is jello
-- Overlapping problems are difficult. Greedy soln practice with overlapping. 
+- Overlapping problems are difficult. Greedy soln practice with overlapping.    
+- binary search can work on rotated arrays, if sorted
