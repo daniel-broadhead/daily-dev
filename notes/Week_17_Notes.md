@@ -5,3 +5,4 @@
 - use stack to find running totals of rectangles/heights. stacks are great for calculations. pop removes the top/last added value. lifo
 - matrices can be mentally reframed into rectangles or other shapes. don't get intimidated by them
 - heaps have properties that allow finding elements without sorting the original list. builds the 'tree' and sorts items under the hood. 
+- counter doesn't organize things
